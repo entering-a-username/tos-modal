@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body class="flex justify-center items-center h-screen bg-slate-300">
+    <div>
+        <button id="toggleID" class="border border-blue-400 rounded-md py-2 px-4 hover:bg-blue-500 hover:text-white hover:duration-500 focus:shadow-blue-200 active:shadow-md">Toggle Button</button>
+    </div>
+    
+
+    <div id="modalID" class="absolute bg-gray-600 w-[570px] h-[380px] rounded-md flex flex-col justify-center hidden">
+        <div class="flex justify-between items-center -mt-8 mb-4">
+            <h1 class="font-bold text-white text-xl mx-6 py-2">Terms of Service</h1>
+            <div id="closeID" class="flex items-center justify-center mx-6 group relative cursor-pointer">
+                <div class="bg-gray-400 w-0.5 h-5 absolute rounded-md rotate-45 group-hover:bg-white"></div>
+                <div class="bg-gray-400 w-0.5 h-5 rounded-md -rotate-45 hover:bg-white"></div>
+            </div>
+        </div>
+        <div class="flex justify-center">
+            <div class="bg-gray-400 w-[100%] h-[0.5px]"></div>
+        </div>
+        <div class="flex flex-col text-gray-400 mx-3 mb-2">
+            <p class="mt-5 mb-2 mx-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis corrupti Lorem ipsum dolor sit amet consectetur. ullam ipsam nihil error alias unde facere rerum exercitationem odit!</p>
+            <p class="mb-5 mx-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus magnam distinctio voluptatibus est nemo. Incidunt repellat cumque numquam quaerat dolores!</p>
+        
+        </div>
+        <div class="flex justify-center">
+            <div class="bg-gray-400 w-[100%] h-[0.5px]"></div>
+        </div>
+        <div class="flex mx-4 mt-6">
+            <button id="acceptID" class="mx-5 rounded-md border py-1.5 px-4 bg-blue-700 text-white border-blue-700 hover:bg-blue-800 hover:border-blue-800">Accept</button>
+            <button id="declineID" class="mx-5 rounded-md border text-gray-200 py-1.5 px-4  hover:bg-gray-400 hover:text-white">Decline</button>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
